@@ -14,10 +14,9 @@ During the project we work with several areas:
 * supply chain attacks
 * infrastructure exposure
 * threat detection
+  
 
-⸻
-
-Week 1 — Threat Intelligence Fundamentals
+## Week 1 — Threat Intelligence Fundamentals
 
 In Week 1 we studied the basic concepts of Cyber Threat Intelligence.
 
@@ -38,9 +37,8 @@ The main threat examples in our work are:
 
 We also reviewed several CTI sources and frameworks such as MITRE ATT&CK, ENISA, SANS and Recorded Future.
 
-⸻
 
-Week 2 — Data Collection
+## Week 2 — Data Collection
 
 Week 2 focuses on collecting information.
 
@@ -60,7 +58,7 @@ For this part we use tools such as:
 
 These tools can help us find information about domains, IP addresses, DNS records, open services and other infrastructure data.
 
-Internal Data
+## Internal Data
 
 Internal data comes from systems inside an organization.
 
@@ -74,9 +72,8 @@ Examples include:
 
 OSINT gives us information about what can be seen from outside. Internal logs help us understand what is happening inside the organization.
 
-⸻
 
-Case Studies
+## Case Studies
 
 We also looked at several security cases.
 
@@ -108,9 +105,8 @@ We looked at information such as:
 
 This information helps us understand the external attack surface.
 
-⸻
 
-Week 3 — Data Processing
+## Week 3 — Data Processing
 
 After collecting data we need to process it.
 
@@ -134,9 +130,8 @@ System Activity
 
 This can help us understand whether several security events are related.
 
-⸻
 
-Tools
+## Tools
 
 During the project we use or study:
 
@@ -151,7 +146,6 @@ During the project we use or study:
 * KQL
 * GitHub logs
 
-⸻
 
 Project Workflow
 
@@ -167,9 +161,8 @@ Correlation
         ↓
 Threat Analysis
 
-⸻
 
-Main Idea
+## Main Idea
 
 The main idea of this project is simple.
 
