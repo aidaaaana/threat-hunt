@@ -1,5 +1,4 @@
-Threat Intelligence Project
-
+# Physical Insider Threat
 About the Project
 
 This repository contains our work for the Cyber Threat Intelligence course.
