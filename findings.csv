@@ -1,6 +1,0 @@
-hunt,technique,account,evidence,severity
-H1 Badge-IN + remote VPN,T1078 Valid Accounts,a.nurlanov,VPN from 95.56.10.4 at 13:15 while badge B101 is IN,High
-"H2 Office login, no badge",T1078 / physical tailgating,s.kim,"Login on WS-ADM-01 at 10:30, no badge IN that day",Medium
-H3 After-hours archive -> USB,T1560.001 + T1052.001,d.serikova,"Badge IN after 20:00, 7-Zip archive, 3.8 GB written to personal USB, local copy deleted (T1070.004)",Critical
-H4 Leaver data grab,T1213.002 + T1098.005,d.serikova,"Resignation notice + 1,240 SharePoint files + personal device enrolled",High
-H5 Laptop-farm pattern,T1200 + T1219 + T1090.002,"j.miller, r.chen",2 'different' remote hires on one IP 73.12.44.201; 2 KVM / remote-access events,High
