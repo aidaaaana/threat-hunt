@@ -1,0 +1,24 @@
+tactic,technique_id,technique_name,apt29,dprk_it_workers,physical_insider,apt29_example,insider_equivalent,our_log_source
+Initial Access,T1195.002,Compromise Software Supply Chain,1,0,0,SolarWinds Orion update trojanized with SUNBURST (2020),Developer inserts code into internal build pipeline,GitHub audit logs; CI/CD logs
+Initial Access,T1566.001,Spearphishing Attachment,1,0,0,Signed .rdp files sent to 100+ orgs (Oct 2024); wine-tasting lures (2025),n/a - insider already inside,Email gateway logs
+Initial Access,T1078,Valid Accounts,1,1,1,Reuse of stolen credentials and tokens,Insider uses own legitimate account,SIEM sign-in logs; badge logs
+Initial Access,T1199,Trusted Relationship,1,1,0,Abuse of IT resellers / cloud service providers,Contractor or fake remote hire gets access via HR onboarding,HR onboarding records; IdP logs
+Initial Access,T1200,Hardware Additions,0,1,1,n/a,Rogue USB / KVM-over-IP device plugged into a corporate laptop,EDR device-connect events
+Credential Access,T1110.003,Password Spraying,1,0,0,Spraying a legacy test tenant before Microsoft breach (2024),n/a,IdP failed sign-ins
+Credential Access,T1621,MFA Request Generation,1,0,0,MFA fatigue pushes to targets,Insider asks colleague to approve push 'for a test',IdP MFA logs
+Persistence,T1098.005,Device Registration,1,1,1,Registering attacker device in Entra ID,Insider enrolls personal device to keep access after leaving,IdP device audit
+Persistence,T1098.002,Additional Email Delegate Permissions,1,0,1,Granting mailbox access to attacker-controlled app,Insider grants himself access to manager's mailbox,M365 audit log
+Persistence,T1136.003,Create Account: Cloud Account,1,0,1,New users created through Azure AD,Admin-insider creates backdoor account before resignation,IdP audit log
+Defense Evasion,T1036.005,Masquerading: Match Legitimate Name,1,1,1,Malware named like Orion components,Fake identity / stolen US identity used for hiring,EDR; HR verification
+Defense Evasion,T1070.004,Indicator Removal: File Deletion,1,0,1,Removing tools after use,Insider deletes local copies and browser history,EDR file events
+Command and Control,T1219,Remote Access Software,0,1,0,n/a,AnyDesk / KVM tools on laptop hosted in a laptop farm,EDR process events; proxy logs
+Command and Control,T1090.002,Proxy: External Proxy,1,1,0,Residential proxies to hide origin,VPN / laptop farm hides real location of remote worker,VPN and proxy logs
+Collection,T1114.002,Remote Email Collection,1,0,1,Reading leadership mailboxes at Microsoft (2024),Insider reads shared mailboxes,M365 audit log
+Collection,T1213.002,Data from Information Repositories: SharePoint,1,1,1,Bulk download from SharePoint/Teams,Insider bulk-downloads project folders before resignation,M365 / SharePoint audit
+Collection,T1005,Data from Local System,1,1,1,Collecting files from compromised hosts,Copying files from own workstation,EDR file events
+Collection,T1113,Screen Capture,0,1,1,n/a,Phone photo of screen / screenshots of sensitive docs,DLP; EDR
+Collection,T1560.001,Archive via Utility,1,1,1,7-Zip password-protected archives of emails,Insider zips data before copying to USB,EDR process events
+Exfiltration,T1052.001,Exfiltration over USB,0,0,1,n/a,Copying archives to personal USB stick,EDR removable-media events
+Exfiltration,T1567.002,Exfiltration to Cloud Storage,1,1,1,Uploading to cloud services,Upload to personal Google Drive / Dropbox,Proxy / CASB logs
+Exfiltration,T1048,Exfiltration Over Alternative Protocol,1,0,0,Exfil over non-standard channels,n/a,Firewall / NetFlow
+Impact,T1657,Financial Theft,0,1,0,n/a,DPRK workers extort employers with stolen code (FBI PSA 2025),Incident reports
