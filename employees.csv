@@ -1,0 +1,8 @@
+emp_id,badge_id,account,role,remote,resignation
+E01,B101,a.nurlanov,Engineer,False,
+E02,B102,d.serikova,Engineer,False,2026-10-26
+E03,B103,m.ivanov,HR,False,
+E04,B104,s.kim,SysAdmin,False,
+E05,,j.miller,Remote Dev,True,
+E06,,r.chen,Remote Dev,True,
+E07,,t.lopez,Remote Dev,True,
