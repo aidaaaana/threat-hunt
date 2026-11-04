@@ -1,4 +1,11 @@
-[Снимок экрана 2026-11-03 223712 (2).zip](https://github.com/user-attachments/files/34371215/2026-11-03.223712.2.zip)
+<img width="947" height="781" alt="Снимок экрана 2026-11-03 234535" src="https://github.com/user-attachments/assets/23d405e7-8181-49ff-91ff-6a3168a74dd1" />
+<img width="960" height="768" alt="Снимок экрана 2026-11-03 234623" src="https://github.com/user-attachments/assets/8a0d0d25-7a2d-41f8-813a-66acf0f883ed" />
+<img width="912" height="761" alt="Снимок экрана 2026-11-03 234257" src="https://github.com/user-attachments/assets/56dfcb7c-d32d-4bb2-b3e6-e3184187cdc3" />
+<img width="957" height="960" alt="Снимок экрана 2026-11-03 233914" src="https://github.com/user-attachments/assets/ddd8dd79-7d14-4549-b24a-e490544dc18d" />
+<img width="963" height="415" alt="Снимок экрана 2026-11-03 223712" src="https://github.com/user-attachments/assets/1735f2eb-acc2-4bf6-97a5-922338cd466b" />
+<img width="952" height="1078" alt="Снимок экрана 2026-11-03 235114" src="https://github.com/user-attachments/assets/a02429fd-b7a7-47d9-b5fb-770341bbfadc" />
+<img width="957" height="281" alt="Снимок экрана 2026-11-03 235802" src="https://github.com/user-attachments/assets/0efd6ef8-c006-46ff-8952-3e0c9c10aa42" />
+
 # Week 9: Atomic Red Team — Linux File and Directory Discovery
 
 **Course:** Introduction to Threat Hunting (AITU, 2026–2027)  
