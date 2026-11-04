@@ -1,3 +1,4 @@
+[Снимок экрана 2026-11-03 223712 (2).zip](https://github.com/user-attachments/files/34371215/2026-11-03.223712.2.zip)
 # Week 9: Atomic Red Team — Linux File and Directory Discovery
 
 **Course:** Introduction to Threat Hunting (AITU, 2026–2027)  
